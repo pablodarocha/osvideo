@@ -22,3 +22,5 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+angular.module('todo', ['ionic'])
