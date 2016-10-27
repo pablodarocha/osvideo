@@ -24,7 +24,11 @@ angular.module('starter', ['ionic'])
 })
 
 angular.module('todo', ['ionic'])
-
+/**
+ * The Projects factory handles saving and loading projects
+ * from local storage, and also lets us save and load the
+ * last active project index.
+ */
   .controller('TodoCtrl', function ($scope, $ionicModal) {
     // no need for testing data anymore
     $scope.tasks = [];
